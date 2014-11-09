@@ -91,7 +91,7 @@ else
     popd > /dev/null
 fi
 
-if $ATBOOT && ! grep $SCRIPTFULLNAME /etc/rc.local &>/dev/null 
+if $ATBOOT && ! grep $SCRIPTFULLNAME /etc/rc.local &>/dev/null
 then
 	step "Setting the script to run at boot time"
 	# This gets messy because Debian Wheezy's rc.local
