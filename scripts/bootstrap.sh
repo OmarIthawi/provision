@@ -22,7 +22,6 @@ REPODIR=$(pwd)
 
 # Base dir is assumed to be the parent of the git repo
 cd ..
-BASEDIR=$(pwd)
 
 # Fatal errors
 function die() {
